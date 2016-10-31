@@ -10,6 +10,7 @@ library(readr) # CSV file I/O, e.g. the read_csv function
 
 #system("ls ../input")
 getwd()
+getwd()
 
 allgames = read.csv("..//input//vgsales.csv")
 allgames$Year <- as.numeric(as.character(allgames$Year))
